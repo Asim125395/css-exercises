@@ -1,1 +1,13 @@
 /* Add CSS Styling */
+.yes {
+    background: hwb(0 0% 100%);
+    color: white;
+}
+.no {
+    background: hsl(60, 100%, 50%);
+    color: #800080;
+}
+.yes.no {
+    font-size: 28px;
+    font-family: "Helvetica", "Times New Roman", sans-serif;
+}
